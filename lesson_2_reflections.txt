@@ -21,6 +21,11 @@ didn't work. Then when it all makes sense you can commit to the repository.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can use the git diff --staged command to check what the difference is 
+between the latest commit and the files in the staging area. Then you can 
+ensure that the changes that you decide to commit strictly correspond to one
+logical change only.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
