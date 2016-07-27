@@ -40,6 +40,13 @@ of updates to your code.
 
 How do the diagrams help you visualize the branch structure?
 
+When you have many branches, diagrams can help you simplify all the text output
+from Git messages in the command line, and instead show the branches as a graph.
+This can help you see which commits are unreachable from another branch, which
+commits are the tips of the branch. When you might eventually want to merge 
+different pieces of code, diagrams can help you better understand what needs to
+be merged/ignored.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
