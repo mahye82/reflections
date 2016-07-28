@@ -58,3 +58,12 @@ two parents because it was derived from two branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Git's automatic merging speeds up the process of combining two branches so that 
+you can work faster compared to doing merges manually. The down-side of Git's 
+automatic merging is that it's not sufficiently intelligent to understand 
+new functions and changes in the same function - this means you have to manually
+merge a lot of files anyway. Another possible down-side is that manually merging
+everything requires that you are familiar with the history of the code or the 
+code written by collaborators. However, as stated earlier, this does speed up 
+the development process. 
