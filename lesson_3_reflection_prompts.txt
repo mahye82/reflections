@@ -12,3 +12,25 @@ Manual pulls might be preferable to automatic updates because you may be working
 on some feature that has led to changes to local working directory that you want
 to complete (and perhaps create a branch for), before dealing with potential
 issues that result from the new commits on the remote when they are pulled.
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+A branch is created as a new label for your commits, if you need to create a 
+non-linear commit history. Branches happen inside a single repository. While you
+can push or pull branches, they are created inside a single repo. You might 
+create a branch for new features while maintaining a working copy on the master 
+branch.
+
+A clone involves taking a repository and making another repository just like it.
+The original repository could be remote, but it could also be local, if you want
+to clone a repo from one place on your computer to another. You'd use a clone if
+you want to collaborate with others, so they have access to your complete commit
+history.
+
+A fork is a clone of a repository on GitHub that is created completely on 
+GitHub, without first cloning it to your local device. Forks have references to 
+the original repository, so that the original work is attributed and it's easy
+to make suggested changes to the original repository. You'd us a fork if you 
+don't have access to change a repository as a collaborator - so you'd make a 
+clone on GitHub and you can add your own changes to that fork. 
