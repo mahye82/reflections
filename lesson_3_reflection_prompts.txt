@@ -4,3 +4,11 @@ local?
 You might want to use a remote repository when collaborating with other people 
 or working on the same project from different devices. You might also want to 
 publish your commits publically so strangers can pull/view/change your work.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+Manual pulls might be preferable to automatic updates because you may be working
+on some feature that has led to changes to local working directory that you want
+to complete (and perhaps create a branch for), before dealing with potential
+issues that result from the new commits on the remote when they are pulled.
