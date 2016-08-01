@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+You might want to use a remote repository when collaborating with other people 
+or working on the same project from different devices. You might also want to 
+publish your commits publically so strangers can pull/view/change your work.
