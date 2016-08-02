@@ -34,3 +34,15 @@ the original repository, so that the original work is attributed and it's easy
 to make suggested changes to the original repository. You'd us a fork if you 
 don't have access to change a repository as a collaborator - so you'd make a 
 clone on GitHub and you can add your own changes to that fork. 
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+A local copy of the last known state of the remote is useful because if you are
+working offline because you don't have internet access, or the remote's server
+is down, you know how far the branch has advanced beyond the master. This saves
+a lot of data overhead. Furthermore, when attempting to sync with a remote that
+has changes and a local repository that has changes, it is easier to deal with
+any merge conflicts locally, by comparing the local copy of the branch and the 
+local branch itself. 
+
