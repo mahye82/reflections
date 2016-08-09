@@ -58,3 +58,13 @@ files. The only possible way I can see it being easier than using GitHub is that
 you aren't dependent on the website, should it ever be offline. Otherwise, Git
 and GitHub seems like the more efficient workflow in every respect for 
 collaborating with others. 
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+Making changes in a separate branch allows you to show them to collaborators
+via pull requests, before they are committed to the master branch, which might
+be maintained as a fully working version. However, this is slower than making
+commits directly to the master branch, as it requires you to pull and push 
+branches, merge and fix conflicts. 
+
