@@ -46,3 +46,15 @@ has changes and a local repository that has changes, it is easier to deal with
 any merge conflicts locally, by comparing the local copy of the branch and the 
 local branch itself. 
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+You could collaborate without using Git and GitHub by sending copies of your 
+files to your collaborators and manually scrolling through the files to find
+conflicts. It would be harder because finding conflicts would be more difficult,
+work might have to stall until merges were complete, you'd need to manually keep
+logs of changes, come up with some alternative to inline comments of changed 
+files. The only possible way I can see it being easier than using GitHub is that
+you aren't dependent on the website, should it ever be offline. Otherwise, Git
+and GitHub seems like the more efficient workflow in every respect for 
+collaborating with others. 
